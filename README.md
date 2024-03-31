@@ -1,5 +1,7 @@
 # Recognize Anything Model (RAM++) for ComfyUI
 
+The counterpart to Segment Anything Model (SAM)
+
 This is an image recognition node for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) based on the RAM++ model from [xinyu1205](https://huggingface.co/xinyu1205).
 
 * https://huggingface.co/xinyu1205/recognize-anything-plus-model
@@ -24,7 +26,7 @@ or within the ComfyUI-Manager => "Install PIP packages" and type in
 git+https://github.com/Hangover3832/recognize-anything.git
 ```
 
-Furthermore you need to download the [RAM++ model](https://huggingface.co/xinyu1205/recognize-anything-plus-model/resolve/main/ram_plus_swin_large_14m.pth) and place it in the \ComfyUI\models\ram\ folder.
+Furthermore you need to download the [RAM++ model](https://huggingface.co/xinyu1205/recognize-anything-plus-model/resolve/main/ram_plus_swin_large_14m.pth) and place it in the \ComfyUI\models\rams\ folder or use ComfyUI-Manger model downloader.
 
 ## Updates
 

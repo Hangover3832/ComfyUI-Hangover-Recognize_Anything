@@ -2,7 +2,7 @@
 @author: AlexL
 @title: ComfyUI-Hangover-Recognize_Anything
 @nickname: Hangover-Recognize_Anything
-@description: An implementation of the Recognize Anything Model (RAM++) for ComfyUI
+@description: An implementation of the Recognize Anything Model (RAM++) for ComfyUI. The counterpart of Segment Anything Model (SAM).
 """
 
 # https://huggingface.co/xinyu1205/recognize-anything-plus-model
@@ -49,7 +49,7 @@ class RecognizeAnything:
 
     def interrogate(self, image:torch.Tensor, model:str, device:str, 中文:bool):
         dev = "cuda" if device.lower() == "gpu" else "cpu"
-        model_path = models_dir + '/' + "ram/" + model
+        model_path = models_dir + '/' + "rams/" + model
 
         if (self.model == None) or (self.modelname != model) or (device != self.device):
             del self.model

@@ -1,12 +1,15 @@
-'''
-An implementation of recognize-anything for ComfyUI
-https://huggingface.co/xinyu1205/recognize-anything-plus-model
-https://github.com/xinyu1205/recognize-anything
+"""
+@author: AlexL
+@title: ComfyUI-Hangover-Recognize_Anything
+@nickname: Hangover-Recognize_Anything
+@description: An implementation of the Recognize Anything Model (RAM++) for ComfyUI
+"""
 
-by
-https://github.com/Hangover3832
-Alex
-'''
+# https://huggingface.co/xinyu1205/recognize-anything-plus-model
+# https://github.com/xinyu1205/recognize-anything
+
+# by https://github.com/Hangover3832
+
 
 from PIL import Image
 import torch

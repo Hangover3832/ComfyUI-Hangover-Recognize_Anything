@@ -10,6 +10,7 @@ This node outputs a string of tags with all the recognized objects and elements 
 ## Installation
 
 Git clone this repository inside the *custom_nodes* folder.
+
 ℹ️ In order to make this node work, the "ram" package need to be installed. To do so, open a terminal inside the *python_embedded* folder within your ComfyUI installation:
 
 ```

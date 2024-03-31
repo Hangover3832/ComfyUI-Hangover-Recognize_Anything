@@ -5,7 +5,8 @@ This is an image recognition node for [ComfyUI](https://github.com/comfyanonymou
 * https://huggingface.co/xinyu1205/recognize-anything-plus-model
 * https://github.com/xinyu1205/recognize-anything
 
-This node outputs a string of tags with all the recognized objects and elements in the image.
+![alt text](images/workflow.png)
+This node outputs a string of tags with all the recognized objects and elements in the image in English or Chinese language.
 
 ## Installation
 

@@ -4,5 +4,5 @@ from .ho_recognize_anything import RecognizeAnything
 # NOTE: names should be globally unique
 
 NODE_CLASS_MAPPINGS = {
-    "Recognize Anything Model (RAM++)": RecognizeAnything,
+    "Recognize Anything Model (RAM)": RecognizeAnything,
 }

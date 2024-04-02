@@ -20,11 +20,7 @@ Git clone this repository inside the *custom_nodes* folder.
 python.exe -m pip install git+https://github.com/Hangover3832/recognize-anything.git
 ```
 
-or within the ComfyUI-Manager => "Install PIP packages" and type in
-
-```
-git+https://github.com/Hangover3832/recognize-anything.git
-```
+~~or within the ComfyUI-Manager => "Install PIP packages" and type in git+https://github.com/Hangover3832/recognize-anything.git~~ (seems actually not working)
 
 Furthermore you need to download the [RAM++ model](https://huggingface.co/xinyu1205/recognize-anything-plus-model/resolve/main/ram_plus_swin_large_14m.pth) and place it in the \ComfyUI\models\rams\ folder or use ComfyUI-Manger model downloader.
 

@@ -1,5 +1,7 @@
 # Recognize Anything Model (RAM++) for ComfyUI
 
+## Image Tagging and Captioning
+
 The counterpart to Segment Anything Model (SAM)
 
 This is an image recognition node for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) based on the RAM++ model from [xinyu1205](https://huggingface.co/xinyu1205).

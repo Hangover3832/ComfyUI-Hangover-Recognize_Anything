@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-hangover-recognize_anything"
+description = "This is an image recognition node for ComfyUI based on the RAM++ model from [a/xinyu1205](https://huggingface.co/xinyu1205).\nThis node outputs a string of tags with all the recognized objects and elements in the image in English or Chinese language.\nFor image tagging and captioning."
+version = "1.0.0"
+license = "LICENSE"
+dependencies = ["ram @ git+https://github.com/xinyu1205/recognize-anything.git"]
+
+[project.urls]
+Repository = "https://github.com/Hangover3832/ComfyUI-Hangover-Recognize_Anything"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-Hangover-Recognize_Anything"
+Icon = ""

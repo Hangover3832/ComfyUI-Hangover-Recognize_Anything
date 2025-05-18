@@ -1,5 +1,7 @@
 # Recognize Anything Model (RAM++) for ComfyUI
 
+## This repository will no longer be maintained.
+
 ## Image Tagging and Captioning
 
 The counterpart to Segment Anything Model (SAM)
